@@ -1,0 +1,24 @@
+Package: ips
+Version: 0.0.13
+Date: 2026-02-16
+Title: Interfaces to Phylogenetic Software in R
+Authors@R: c(
+    person("Christoph", "Heibl", email = "christoph.heibl@gmx.net", 
+        role = c("aut")),
+    person("Natalie", "Cusimano", role = c("aut")),
+    person("Franz-Sebastian", "Krah", role = c("aut")),
+     person("Martin R.", 'Smith', role = c("ctb", "cre"), 
+         email = "martin.smith@durham.ac.uk",
+         comment = c(ORCID = "0000-0001-5660-1727"))
+    )
+Depends: R (>= 3.5.0), ape
+Imports: data.table, phangorn, plyr, XML
+Description: Functions that wrap popular phylogenetic software for sequence
+    alignment, masking of sequence alignments, and estimation of phylogenies and
+    ancestral character states.
+License: GPL-3
+Language: en-US
+Encoding: UTF-8
+NeedsCompilation: no
+Repository: CRAN
+RoxygenNote: 7.3.3
