@@ -20,7 +20,7 @@ a numeric vector with distances from root to tip for each tip in the phylogeneti
 Christoph Heibl
 }
 \seealso{
-\code{\link{branching.times}}
+\code{\link[ape]{branching.times}}
 }
 %\examples{}
 

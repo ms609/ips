@@ -33,7 +33,7 @@ When reading phylogenetic trees from a NEXUS file that contains a \code{translat
 }
 
 \seealso{\code{\link[ape]{read.tree}}, 
-	\code{\link{read.nexus}}, \code{\link{read.beast}} 
+	\code{\link[ape]{read.nexus}}, \code{\link{read.beast}} 
   for reading trees in NEWICK and NEXUS format; \code{\link[ape]{ladderize}} and \code{\link[ape]{rotate}} for tree manipulation; \code{node.support} for plotting node support values has been moved to package \bold{viper}. %\code{\link{node.trans}} for handling non-standard node elements in class \code{\link[ape]{phylo}}.
 }
 

@@ -60,5 +60,5 @@ Pagel, M. and A. Meade. 2006. Bayesian analysis of correlated evolution of discr
 \author{Christoph Heibl}
 
 \seealso{
-	\code{\link{ace}}
+	\code{\link[ape]{ace}}
 }

@@ -20,7 +20,7 @@ A data frame with four columns (\code{type}, \code{locus}, \code{begin}, and \co
 %%  ~~ possibly secondary sources and usages ~~
 %}
 \seealso{
-\code{\link{cbind.DNAbin}} to concatenate multiple alignments; \code{\link{raxml}} for an interface to RAxML.
+\code{\link[ape]{cbind.DNAbin}} to concatenate multiple alignments; \code{\link{raxml}} for an interface to RAxML.
 }
 \examples{
 ## bark beetle sequences
