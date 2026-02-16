@@ -1,3 +1,7 @@
+# ips 0.0.13 (2026-02-16)
+
+* Updated documentation links to comply with CRAN policy.
+
 # ips 0.0.12
 
 ## New features
