@@ -5,12 +5,12 @@
 #' @description Given a set of node support values (e.g., bootstrap 
 #' proportions, posterior probabilities) and a certain threshold, 
 #' all edges receiving less support than the threshold will be collapsed.
-#' @param phy An object of class \code{\link{phylo}}.
+#' @param phy An object of class \code{\link[ape:read.tree]{phylo}}.
 #' @param value A character string giving the name of the list element 
 #' that contains the support values; default is \code{"node.label"}.
 #' @param cutoff A numeric value giving the threshold below which edges 
 #' will be collapsed.
-#' @return An object of class \code{\link{phylo}}.
+#' @return An object of class \code{\link[ape:read.tree]{phylo}}.
 #' @examples 
 #' ## phylogeny of bark beetles
 #' data(ips.tree)

@@ -7,7 +7,7 @@
 collapseUnsupportedEdges(phy, value = "node.label", cutoff)
 }
 \arguments{
-\item{phy}{An object of class \code{\link{phylo}}.}
+\item{phy}{An object of class \code{\link[ape:read.tree]{phylo}}.}
 
 \item{value}{A character string giving the name of the list element 
 that contains the support values; default is \code{"node.label"}.}
@@ -16,7 +16,7 @@ that contains the support values; default is \code{"node.label"}.}
 will be collapsed.}
 }
 \value{
-An object of class \code{\link{phylo}}.
+An object of class \code{\link[ape:read.tree]{phylo}}.
 }
 \description{
 Given a set of node support values (e.g., bootstrap 

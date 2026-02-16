@@ -6,7 +6,7 @@
 Standard Node Numbering in Phylo Objects
 }
 \description{
-The function (re-)establishes the standard numbering of terminal and internal nodes in phylogenies represented as objects of class \code{\link{phylo}}.
+The function (re-)establishes the standard numbering of terminal and internal nodes in phylogenies represented as objects of class \code{\link[ape:read.tree]{phylo}}.
 }
 
 \usage{
@@ -14,7 +14,7 @@ fixNodes(phy)
 }
  
 \arguments{
-  \item{phy}{An object of class \code{\link{phylo}}. 
+  \item{phy}{An object of class \code{\link[ape:read.tree]{phylo}}. 
 	}
 }
 
@@ -24,7 +24,7 @@ When reading phylogenetic trees from a NEXUS file that contains a \code{translat
 \code{fixNodes} is also intended to re-establish the standard numbering of internal nodes and reorder all node value elements (e.g. node.label, posterior, ...) if a \code{\link[ape]{phylo}} object has been modified by either \code{\link[ape]{root}}, \code{\link[ape]{ladderize}}, or \code{\link[ape]{rotate}}.
 }
 
-\value{An object of class \code{\link{phylo}}.}
+\value{An object of class \code{\link[ape:read.tree]{phylo}}.}
 
 \author{Christoph Heibl}
 

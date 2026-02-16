@@ -4,7 +4,7 @@
 #' @title Find Pairs of Sister Species
 #' @description Finds pairs of sister species in
 #' a phylogenetic tree.
-#' @param phy An object of class \code{\link{phylo}}.
+#' @param phy An object of class \code{\link[ape:read.tree]{phylo}}.
 #' @param labels Logical, indicating whether to return tip labels or tip numbers.
 #' @return A list of which each element contains the tip labels
 #' of a sister species pair.
