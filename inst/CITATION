@@ -4,6 +4,6 @@ x <- bibentry(
   bibtype="Misc",
   key="Heibl2008",
   title = "IPS: R language interfaces to diverse phylogenetic software packages. http://www.christophheibl.de/Rpackages.html",
-  author = as.person("C. Heibl"),
+  author = as.person("Christoph", "Heibl"),
   year = "2008 onwards",
   textVersion = "Heibl C. 2008 onwards. IPS: R language interfaces to diverse phylogenetic software packages. http://www.christophheibl.de/Rpackages.html.")
