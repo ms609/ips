@@ -68,8 +68,7 @@
 #' @references Talavera, G., and J. Castresana. 2007. Improvement of phylogenies
 #'   after removing divergent and ambiguously aligned blocks from protein
 #'   sequence alignments. \emph{Systematic Biology} \bold{56}, 564-577.
-#' @references  \bold{Gblocks website}: 
-#'   \url{https://www.biologiaevolutiva.org/jcastresana/Gblocks.html}
+#' @references  Gblocks website: \url{https://molevol-ibe.csic.es/Gblocks.html}
 #' @seealso \code{\link{mafft}} and \code{\link{prank}} for multiple sequence
 #'   alignment; \code{\link{aliscore}} for another alignment masking algorithm.
 #' @examples
