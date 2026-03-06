@@ -1,6 +1,10 @@
+## R CMD check results
 
-This update fixes the documentation issues that caused the package to be
-archived.
+0 errors | 0 warnings | 0 notes
 
-It has been checked locally on Windows 11, R 4.5.2.
-There were no ERRORs, WARNINGs or NOTEs.
+## revdepcheck results
+
+We checked 2 reverse dependencies (0 from CRAN + 2 from Bioconductor), comparing R CMD check results across CRAN and dev versions of this package.
+
+ * We saw 0 new problems
+ * We failed to check 0 packages
