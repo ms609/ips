@@ -13,22 +13,19 @@
 #' tr <- rtree(12)
 #' plot(tr)
 #' terminalSisters(tr)
-#' @importFrom ape is.nested
 #' @export
 
-terminalSisters <- function(phy, labels = TRUE){
+terminalSisters <- function(phy, labels = TRUE) {
 
-  obj <- lapply(1:Ntip(phy), sister, phy = phy)
-  for ( i in seq_along(obj))
-    obj[[i]] <- sort(c(obj[[i]], i))
-  obj <- unique(obj)
+  obj <- unique(
+    lapply(1:Ntip(phy), function(x) sort(c(x, sister(x, phy = phy))))
+  )
   is.nested <- function(x, y){
     identical(sort(union(x, y)), x)
   }
-  id <- vector(length = length(obj))
-  for ( i in seq_along(obj) ){
-    id[i] <- !any(sapply(obj[-i], is.nested, x = obj[[i]]))
-  }
+  id <- vapply(seq_along(obj), function(i) 
+    !any(vapply(obj[-i], is.nested, x = obj[[i]], logical(1))),
+    logical(1))
   obj <- obj[id]
   if (labels) obj <- lapply(obj, function(phy, x) phy$tip.label[x], phy = phy)
   obj
