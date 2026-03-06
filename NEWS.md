@@ -1,5 +1,8 @@
-# ips 0.0.13 (2026-02-16)
+# ips 0.1.0 (2026-03-XX)
 
+* Added an example for `fixNodes()` to show the standard node numbering in `phylo` objects.
+
+# ips 0.0.13 (2026-02-16)
 * Updated documentation links to comply with CRAN policy.
 
 # ips 0.0.12

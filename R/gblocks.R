@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2014 (last update 2019-06-27)
+## © C. Heibl 2014 (last update 2025-09-14)
 
 #' @title Masking of Sequence Alignments with GBLOCKS
 #' @description Provides a wrapper to Gblocks, a computer program written in
