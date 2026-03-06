@@ -22,6 +22,7 @@
 #' @param quiet Logical, if set to \code{TRUE}, mafft progress is printed out on
 #'   the screen.
 #' @return An object of class \code{"\link[ape]{DNAbin}"} or \code{"\link[ape]{AAbin}"}.
+#' @importFrom ape read.FASTA
 #' @export
 
 mafft.merge <- function(subMSA, method = "auto", gt,

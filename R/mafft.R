@@ -80,7 +80,7 @@
 #' @seealso \code{\link{read.fas}} to import DNA sequences; \code{\link{prank}} 
 #'   for another alignment algorithm; \code{\link{gblocks}} and 
 #'   \code{\link{aliscore}} for alignment cleaning.
-#' @importFrom ape is.binary.tree multi2di
+#' @importFrom ape is.binary.tree multi2di read.dna
 #' @importFrom phangorn write.phyDat
 #' @export
 

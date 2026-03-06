@@ -73,6 +73,7 @@
 #' Gblocks website: \url{https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html}
 #' @seealso
 #' \code{\link{mafft}} and \code{\link{prank}} for sequence alignment; \code{\link{aliscore}} for another alignment masking algorithm.
+#' @importFrom ape read.FASTA
 #' @export
 
 gblocks <- function(x, b1 = .5, b2 = b1, b3 = ncol(x), 
