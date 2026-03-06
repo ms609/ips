@@ -10,7 +10,7 @@ Authors@R: c(
          email = "martin.smith@durham.ac.uk",
          comment = c(ORCID = "0000-0001-5660-1727"))
     )
-URL: https://github.com/heibl/ips, https://github.com/ms609/ips
+URL: https://github.com/heibl/ips
 Depends:
     R (>= 3.5.0),
     ape
