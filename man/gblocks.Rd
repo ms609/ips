@@ -97,17 +97,12 @@ data(ips.28S)
 \dontrun{gblocks(ips.28S)}  
 }
 \references{
-Castresana, J. 2000. Selection of conserved blocks from multiple
-  alignments for their use in phylogenetic analysis. \emph{Molecular Biology
-  and Evolution} \bold{17}, 540-552.
-
-Talavera, G., and J. Castresana. 2007. Improvement of phylogenies
-  after removing divergent and ambiguously aligned blocks from protein
-  sequence alignments. \emph{Systematic Biology} \bold{56}, 564-577.
-
-Gblocks website: \url{https://molevol-ibe.csic.es/Gblocks.html}
+Castresana, J. 2000. Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis. \emph{Molecular Biology and Evolution} \bold{17}, 540-552. 
+  
+Talavera, G., and J. Castresana. 2007. Improvement of phylogenies after removing divergent and ambiguously aligned blocks from protein sequence alignments. \emph{Systematic Biology} \bold{56}, 564-577. 
+   
+Gblocks website: \url{https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html}
 }
 \seealso{
-\code{\link{mafft}} and \code{\link{prank}} for multiple sequence
-  alignment; \code{\link{aliscore}} for another alignment masking algorithm.
+\code{\link{mafft}} and \code{\link{prank}} for sequence alignment; \code{\link{aliscore}} for another alignment masking algorithm.
 }

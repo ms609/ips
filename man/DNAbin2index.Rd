@@ -11,7 +11,7 @@ DNAbin2index(x)
 }
 \description{
 Extract the indices of non-empty positions in a sample of DNA
-  sequences to
+  sequences to zzz.
 }
 \seealso{
 \code{\link{index2DNAbin}}

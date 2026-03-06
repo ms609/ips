@@ -80,6 +80,7 @@ Y <- cbind(as.character(Y1), as.character(Y2))
 }
 \references{
 J. P. Huelsenbeck & Ronquist F. 2001. MrBayes: Bayesian inference of phylogenetic trees. \emph{Bioinformatics} \bold{17}: 754-755.
+
 Ronquist F. & J. P. Huelsenbeck. 2003. MrBayes 3: Bayesian phylogenetic inference under mixed models. \emph{Biometrics} \bold{19}: 1572-1574.
 MrBayes website: \url{https://mrbayes.sourceforge.net/}.
 }

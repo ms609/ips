@@ -7,32 +7,38 @@
 collapseUnsupportedEdges(phy, value = "node.label", cutoff)
 }
 \arguments{
-\item{phy}{An object of class \code{\link[ape:read.tree]{phylo}}.}
+\item{phy}{An object of class \code{\link[ape]{phylo}}.}
 
-\item{value}{A character string giving the name of the list element 
-that contains the support values; default is \code{"node.label"}.}
+\item{value}{A character string giving the name of the list element of the
+\code{\link[ape]{phylo}} object that contains the support values; default is
+\code{"node.label"}.}
 
-\item{cutoff}{A numeric value giving the threshold below which edges 
-will be collapsed.}
+\item{cutoff}{A numeric value giving the threshold below which edges will be
+collapsed.}
 }
 \value{
-An object of class \code{\link[ape:read.tree]{phylo}}.
+An object of class \code{\link[ape]{phylo}}.
 }
 \description{
-Given a set of node support values (e.g., bootstrap 
-proportions, posterior probabilities) and a certain threshold, 
-all edges receiving less support than the threshold will be collapsed.
+Given a set of node support values (e.g., bootstrap proportions,
+  posterior probabilities) and a certain threshold, all edges receiving less
+  support than the threshold will be collapsed.
+}
+\details{
+Collapsing weekly supported edges can help draw attention to those
+parts of a phylogeny that are really supported by the underlying data.
 }
 \examples{
 ## phylogeny of bark beetles
 data(ips.tree)
+
 ## non-parametric bootstrap proportions (BP)
 ips.tree$node.label
+
 ## collapse clades with < 70 BP
 tr <- collapseUnsupportedEdges(ips.tree, "node.label", 70)
+
 ## show new topology
-par(mfrow = c(1, 2))
-plot(ips.tree, no.margin = TRUE)
-nodelabels(ips.tree$node.label, cex = .5, frame = "n", adj = c(0, .5))
 plot(tr, no.margin = TRUE)
+
 }

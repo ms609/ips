@@ -7,8 +7,8 @@
 mafft.merge(subMSA, method = "auto", gt, thread = -1, exec, quiet = TRUE)
 }
 \arguments{
-\item{subMSA}{A list of objects of class \code{"\link[ape]{DNAbin}"} or
-\code{"\link[ape]{AAbin}"}.}
+\item{subMSA}{A list of objects of class \code{\link[ape]{DNAbin}} or
+\code{\link[ape]{AAbin}}.}
 
 \item{method}{A character string giving the alignment method. Available
 accuracy-oriented methods for less than 200 sequences are
