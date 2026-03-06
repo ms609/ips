@@ -62,18 +62,17 @@
 #' @note \code{gblocks} was last updated and tested to work with Gblocks 0.91b.
 #'   If you have problems getting the function to work with a newer version of
 #'   Gblocks, please contact the package maintainer.
-#' @references Castresana, J. 2000. Selection of conserved blocks from multiple
-#'   alignments for their use in phylogenetic analysis. \emph{Molecular Biology
-#'   and Evolution} \bold{17}, 540-552.
-#' @references Talavera, G., and J. Castresana. 2007. Improvement of phylogenies
-#'   after removing divergent and ambiguously aligned blocks from protein
-#'   sequence alignments. \emph{Systematic Biology} \bold{56}, 564-577.
-#' @references  Gblocks website: \url{https://molevol-ibe.csic.es/Gblocks.html}
-#' @seealso \code{\link{mafft}} and \code{\link{prank}} for multiple sequence
-#'   alignment; \code{\link{aliscore}} for another alignment masking algorithm.
 #' @examples
 #' data(ips.28S)
 #' \dontrun{gblocks(ips.28S)}  
+#' @references 
+#' Castresana, J. 2000. Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis. \emph{Molecular Biology and Evolution} \bold{17}, 540-552. 
+#'   
+#' Talavera, G., and J. Castresana. 2007. Improvement of phylogenies after removing divergent and ambiguously aligned blocks from protein sequence alignments. \emph{Systematic Biology} \bold{56}, 564-577. 
+#'    
+#' Gblocks website: \url{https://home.cc.umanitoba.ca/~psgendb/doc/Castresana/Gblocks_documentation.html}
+#' @seealso
+#' \code{\link{mafft}} and \code{\link{prank}} for sequence alignment; \code{\link{aliscore}} for another alignment masking algorithm.
 #' @export
 
 gblocks <- function(x, b1 = .5, b2 = b1, b3 = ncol(x), 

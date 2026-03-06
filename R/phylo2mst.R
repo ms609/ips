@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2016 (last update 2019-03-07)
+## Written by C. Heibl 2016 (last update 2025-09-14)
 
 ## WORK UNDER PROGRESS
 ## - cannot handle polytomies

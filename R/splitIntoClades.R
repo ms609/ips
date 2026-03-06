@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2014 (last update 2016-11-29)
+## Written by C. Heibl 2014 (last update 2025-09-14)
 
 #' @title Find Monophyletic Subsets in Species Lists
 #' @description Takes a phylogeny and a subset of its tiplabels

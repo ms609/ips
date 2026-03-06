@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2014 (last update 2019-06-20)
+## Written by C. Heibl 2014 (last update 2025-09-14)
 
 #' @title Equal Tip Heights
 #' @description Modify terminal edge lengths to create "exactly" (see Details)

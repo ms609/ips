@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2014 (last update 2017-03-22)
+## Written by C. Heibl 2014 (last update 2025-09-14)
 
 #' @title Find Pairs of Sister Species
 #' @description Finds pairs of sister species in
@@ -13,8 +13,8 @@
 #' tr <- rtree(12)
 #' plot(tr)
 #' terminalSisters(tr)
+#' @importFrom ape is.nested
 #' @export
-#' @import ape
 
 terminalSisters <- function(phy, labels = TRUE){
 

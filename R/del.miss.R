@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2014 (last update 2016-11-16)
+## Written by C. Heibl 2014 (last update 2025-09-14)
 
 #' @title Delete Missing Data from DNA Sequences
 #' @description Remove gaps ("-") and/or missing and ambiguous data ("N", "?") 

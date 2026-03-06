@@ -1,6 +1,7 @@
 ## This code is part of the ips package
-## © C. Heibl 2014 (last update 2016-12-05)
+## Written by C. Heibl 2014 (last update 2025-09-14)
 
+#' @importFrom ape which.edge
 #' @importFrom utils head tail
 #' @export
 

@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2016 (last update 2016-11-23)
+## Written by C. Heibl 2016 (last update 2025-09-14)
 
 #' @title Numbers of Tips of (Sub)trees
 #' @description Counts the number of tips of a given clade of a 

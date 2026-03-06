@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2016 (last update 2016-11-23)
+## Written by C. Heibl 2016 (last update 2025-09-14)
 
 #' @title Neighboring Nodes in a Minimum Spanning Tree
 #' @description Finds all pairs of adjacent nodes, i.e. 
@@ -7,7 +7,7 @@
 #' tree
 #' @param mst An object of class \code{\link[ape]{mst}}.
 #' @export
-#' @import ape
+#' @importFrom ape mst
 
 neighboringPairs <- function(mst){
   

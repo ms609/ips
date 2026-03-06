@@ -4,6 +4,7 @@
 #' @rdname read
 #' @export
 
+#' @importFrom ape as.DNAbin
 read.nex <- function(x){
 	
 	x <- scan(x, what = "c", quiet = TRUE)

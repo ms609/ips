@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2014 (last update 2024-04-17)
+## Written by C. Heibl 2014 (last update 2025-09-14)
 
 #' @title Bayesian MCMC Tree Search with MrBayes
 #' @description Provides a wrapper for Bayesian phylogenetic tree search through
@@ -36,7 +36,7 @@
 #'   \code{\link{raxml}} for maximum likelihood tree search.
 #' @references 
 #' J. P. Huelsenbeck & Ronquist F. 2001. MrBayes: Bayesian inference of phylogenetic trees. \emph{Bioinformatics} \bold{17}: 754-755.
-
+#'
 #' Ronquist F. & J. P. Huelsenbeck. 2003. MrBayes 3: Bayesian phylogenetic inference under mixed models. \emph{Biometrics} \bold{19}: 1572-1574.
 
 #' MrBayes website: \url{https://mrbayes.sourceforge.net/}.
@@ -52,11 +52,8 @@
 #' Y <- cbind(as.character(Y1), as.character(Y2))
 # 'mrbayes.mixed(Y, file = "", ngen = 100, run = FALSE)
 #' }
+#' @importFrom ape read.nexus
 #' @export 
-
-
-
-
 
 mrbayes <- function(x, file = "", lset, prset, mcmc, unlink, constraint,
                     burnin = 10, contype = "allcompat", exec, run = FALSE){

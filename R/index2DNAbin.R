@@ -1,5 +1,5 @@
 ## This code is part of the ips package
-## © C. Heibl 2016 (last update 2019-06-27)
+## Written by C. Heibl 2016 (last update 2025-09-14)
 
 #' @title Conversion of Index to DNAbin
 #' @description Use indices of non-empty positions to convert a list of 
