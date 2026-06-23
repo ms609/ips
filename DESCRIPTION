@@ -13,12 +13,12 @@ Authors@R: c(
 URL: https://github.com/heibl/ips
 Depends:
     R (>= 3.5.0),
-    ape
+    ape,
 Imports:
     data.table,
     phangorn,
     plyr,
-    XML
+    XML,
 Description: Functions that wrap popular phylogenetic software for sequence
     alignment, masking of sequence alignments, and estimation of phylogenies and
     ancestral character states.
@@ -26,4 +26,4 @@ License: GPL-3
 Language: en-US
 Encoding: UTF-8
 NeedsCompilation: no
-RoxygenNote: 7.3.3
+Config/roxygen2/version: 8.0.0
