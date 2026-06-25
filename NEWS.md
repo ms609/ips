@@ -1,3 +1,7 @@
+# ips 0.1.1 (2026-06-24)
+
+* Minor update to comply with changes in R and the package's dependencies.
+
 # ips 0.1.0 (2026-03-20)
 
 * Added an example for `fixNodes()` to show the standard node numbering in `phylo` objects.

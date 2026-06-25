@@ -2,13 +2,14 @@ Package: ips
 Version: 0.1.1
 Title: Interfaces to Phylogenetic Software in R
 Authors@R: c(
-    person("Christoph", "Heibl", email = "christoph.heibl@gmx.net", 
-        role = c("aut", "cre")),
+    person("Christoph", "Heibl", role = c("aut", "cre"),
+      email = "christoph.heibl@gmx.net", 
+      comment = c(ORCID = "0000-0002-7655-3299")),
     person("Natalie", "Cusimano", role = c("aut")),
     person("Franz-Sebastian", "Krah", role = c("aut")),
-     person("Martin R.", 'Smith', role = c("ctb"), 
-         email = "martin.smith@durham.ac.uk",
-         comment = c(ORCID = "0000-0001-5660-1727"))
+    person("Martin R.", 'Smith', role = c("ctb"), 
+      email = "martin.smith@durham.ac.uk",
+      comment = c(ORCID = "0000-0001-5660-1727"))
     )
 URL: https://github.com/heibl/ips
 Depends:
