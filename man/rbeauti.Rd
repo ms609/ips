@@ -30,7 +30,7 @@ If left empty the XML tree will be printed to the screen (see Examples).}
 
 \item{link.trees}{Logical, indicating if tree models should be linked over partitions.}
 
-\item{subst.model}{A character string defining a substituion model, either
+\item{subst.model}{A character string defining a substitution model, either
 \code{"JC69"}, \code{"HKY"},\code{"TN93"}, or \code{"GTR"}.}
 
 \item{clock}{A character string defining a clock model, either \code{"Strict

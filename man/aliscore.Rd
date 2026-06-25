@@ -36,7 +36,7 @@ Provides a interface to \bold{Aliscore}, in order to remove
 }
 \note{
 This function was developed with ALISCORE version 2. \bold{ALISCORE is
-  no longer available and seems to be dicontinued by the authors.}
+  no longer available and seems to be discontinued by the authors.}
 }
 \examples{
 data(ips.28S)

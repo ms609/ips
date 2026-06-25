@@ -68,10 +68,10 @@
 
 * `mafft()` received the additional argument `options`, which can be used to request options such as e.g.  `--adjustdirection` that are not build into the function's interface.
 
-* This version includes a new internal function `phylo2mafft()`, which does exactly the same thing as the RUBY script `newick2mafft.rb` on the MAFFT website (\url{https://mafft.cbrc.jp/alignment/software/newick2mafft.rb}): it converts a user-defined guide tree into a format readible by MAFFT.
+* This version includes a new internal function `phylo2mafft()`, which does exactly the same thing as the RUBY script `newick2mafft.rb` on the MAFFT website (\url{https://mafft.cbrc.jp/alignment/software/newick2mafft.rb}): it converts a user-defined guide tree into a format readable by MAFFT.
 
 * `delete.empty.cells()` and `fillEndsWithN()` are now using Emanuel Paradis' bit-level coding for DNA sequences, which makes them much faster.
 
 ## Deprecated features
 
-* `c.genes()` has been superseeded by the cbind method for objects of class `"DNAbin"` provided in the package **ape**; `c.genes()` will be removed in one of the following versions.
+* `c.genes()` has been superseded by the `cbind` method for objects of class `"DNAbin"` provided in the package **ape**; `c.genes()` will be removed in one of the following versions.
