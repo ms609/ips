@@ -15,7 +15,7 @@
 #' @param template \emph{Currently unused.}
 #' @param link.clocks Logical, indicating if clock models should be linked over partitions.
 #' @param link.trees Logical, indicating if tree models should be linked over partitions.
-#' @param subst.model A character string defining a substituion model, either
+#' @param subst.model A character string defining a substitution model, either
 #'   \code{"JC69"}, \code{"HKY"},\code{"TN93"}, or \code{"GTR"}.
 #' @param clock A character string defining a clock model, either \code{"Strict
 #'   Clock"}, \code{"Relaxed Clock Exponential"},\code{"Relaxed Clock Log

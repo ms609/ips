@@ -35,7 +35,8 @@ Provides a interface to \bold{Aliscore}, in order to remove
   problematic regions of a DNA sequence alignment.
 }
 \note{
-This function was developed with ALISCORE version 2.
+This function was developed with ALISCORE version 2. \bold{ALISCORE is
+  no longer available and seems to be discontinued by the authors.}
 }
 \examples{
 data(ips.28S)

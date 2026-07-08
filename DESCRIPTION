@@ -1,24 +1,28 @@
 Package: ips
-Version: 0.1.0
+Version: 0.1.1
 Title: Interfaces to Phylogenetic Software in R
 Authors@R: c(
-    person("Christoph", "Heibl", email = "christoph.heibl@gmx.net", 
-        role = c("aut")),
+    person("Christoph", "Heibl", role = c("aut"),
+      email = "christoph.heibl@gmx.net",
+      comment = c(ORCID = "0000-0002-7655-3299")),
     person("Natalie", "Cusimano", role = c("aut")),
     person("Franz-Sebastian", "Krah", role = c("aut")),
-     person("Martin R.", 'Smith', role = c("ctb", "cre"), 
-         email = "martin.smith@durham.ac.uk",
-         comment = c(ORCID = "0000-0001-5660-1727"))
+    person("Martin R.", 'Smith', role = c("ctb", "cre"),
+      email = "martin.smith@durham.ac.uk",
+      comment = c(ORCID = "0000-0001-5660-1727"))
     )
 URL: https://github.com/heibl/ips
 Depends:
     R (>= 3.5.0),
-    ape,
+    ape
 Imports:
     data.table,
+    dplyr,
     phangorn,
     plyr,
-    XML,
+    rlang,
+    tibble,
+    XML
 Description: Functions that wrap popular phylogenetic software for sequence
     alignment, masking of sequence alignments, and estimation of phylogenies and
     ancestral character states.
@@ -27,3 +31,4 @@ Language: en-US
 Encoding: UTF-8
 NeedsCompilation: no
 Config/roxygen2/version: 8.0.0
+RoxygenNote: 7.3.3
