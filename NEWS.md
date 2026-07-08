@@ -1,14 +1,19 @@
-# ips 0.1.1 (2026-06-24)
+# ips 0.1.1 (2026-07-08)
 
 * Minor update to comply with changes in R and the package's dependencies.
+
 
 # ips 0.1.0 (2026-03-20)
 
 * Added an example for `fixNodes()` to show the standard node numbering in `phylo` objects.
+
 * Reworked `combMyTree()` to work with tibbles and offer more options to scale terminal branch lengths.
 
+
 # ips 0.0.13 (2026-02-16)
+
 * Updated documentation links to comply with CRAN policy.
+
 
 # ips 0.0.12
 
@@ -20,6 +25,7 @@
    
 * `deleteEmptyCells()` has now a sister function `identifyEmtpyCells()` that won't delete but only identify the empty rows and columns in a sequence alignment. This is useful if there is a second matrix (e.g. with confidence scores) tied to the sequence alignment.
 
+
 # ips 0.0.11
 
 ## New features
@@ -30,11 +36,13 @@
 
 * Argument `weights` in `raxml()` allows to assign individual weights to each column of the alignment. It corresponds to the -a flag in RAxML (see The RAxML v8.2.x Manual for details)
 
+
 # ips 0.0-10
 
 ## Improved features
 
 * Argument `exec` in `mrbayes()` allows to specify the name and path of the MrBayes executable explicitly. If the executable is in the search path, `exec` can be missing.
+
 
 # ips 0.0-9
 
@@ -45,6 +53,7 @@
 ## Deprecated features
 
 * `write.partioned.nex()` was removed from the package; its functionality has been integrated into `write.nex()`.
+
 
 # ips 0.0-8
 
@@ -61,6 +70,7 @@
 ## Bug fixes
 
  * Argument `run = TRUE` in `mrbayes()` and `mrbayes.mixed()` was broken on Windows platforms. (Thanks to Liam Revell and Klaus Schliep for report and fix).
+
 
 # ips 0.0-7
 
