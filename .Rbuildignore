@@ -1,4 +1,5 @@
 ^.*\.Rproj$
+^codemeta\.json$
 ^\.Rproj\.user$
 ^dev$
 ^deprecated$
